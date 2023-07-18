@@ -8,8 +8,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import ROS from "./tech/ROS.png";
 import figma from "./tech/figma.png";
+import vue from "./tech/vue.png";
+import angular from "./tech/angular.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -24,7 +26,10 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import newbee from "./company/newbee.svg";
 import tesla from "./company/tesla.png";
+import mapit from "./company/mapit.png";
+import flivery from "./company/flivery.png"
 
 import deardiary from "./deardiary.png";
 import axechat from "./axechat.png";
@@ -40,9 +45,13 @@ export {
   menu,
   close,
   css,
-  docker,
+  ROS,
   figma,
+  vue,
+  angular,
   git,
+  mapit,
+  flivery,
   html,
   javascript,
   mongodb,
@@ -55,6 +64,7 @@ export {
   meta,
   shopify,
   starbucks,
+  newbee,
   tesla,
   deardiary,
   axechat,

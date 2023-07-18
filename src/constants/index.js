@@ -13,14 +13,19 @@ import {
   nodejs,
   mongodb,
   git,
+  newbee,
   figma,
-  docker,
+  ROS,
+  angular,
+  flivery,
+  vue,
   meta,
   starbucks,
   tesla,
   shopify,
   deardiary,
   axechat,
+  mapit,
   tripguide,
   threejs,
 } from "../assets";
@@ -46,7 +51,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Front End Developer",
     icon: mobile,
   },
   {
@@ -54,7 +59,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Motion Planning Engineer",
     icon: creator,
   },
 ];
@@ -81,12 +86,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Vue",
+    icon: vue,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "Node JS",
@@ -109,52 +114,52 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "ROS",
+    icon: ROS,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Vue.js Developer",
+    company_name: "NewBee",
+    icon: newbee,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - July 2023",
     points: [
-      "","","",""
+      "Freshie Portal of IIT Bombay with Devcom and ISMP Team",
+      "Implemented API's from the MongoDB Backend ",
+      "Implememted Features like Adding Posts with Functionality of Upvote, Comment , Reply and Verified Answer(By ISMP)",
+      "Secured the AUthentication using JWT and BcryptJS for Hashing and Salting of the Password and Access Tokens "
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Angular Js Developer",
+    company_name: "FLivery",
+    icon: flivery,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2023- August 2023",
     points: [
-      "","","",""
+      "Handled the Front-End Of the whole E-Commerce Website",
+      "Added and managed API endpoints related to Search Products",
+      "Made the Website Responsive to Both Desktop , Mobile and Intermediate Devices",
+      "Implemented the Google Maps API for Users to directly search their adress and all the input fields are populated "
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "MapIT.ai",
+    icon: mapit,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jun 2023 - August 2023",
     points: [
-      "","","",""
+      "Implemented Blog Page functionality and Other Pages into their Official website using ReactJS",
+      "No hardcoding , implemented all the blog page to from a central database in minimal time using minimal Code",
+      "Still Working...",
+      "..."
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "","","",""
-    ],
-  },
+ 
 ];
 
 const testimonials = [
