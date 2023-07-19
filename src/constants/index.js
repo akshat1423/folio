@@ -192,28 +192,7 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Dear Diary",
-    description:
-      "Empowering seamless note-making for everyone, anywhere, and on any device. A revolutionary project that unlocks the power of accessibility and organization at your fingertips.",
-    tags: [
-      {
-        name: "AngularJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Django",
-        color: "green-text-gradient",
-      },
-      {
-        name: "SQLite",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: deardiary,
-    link:"https://homepages.iitb.ac.in/~22b0690/#/login",
-    source_code_link: "https://github.com/deardiaryav/deardiaryav.github.io",
-  },
+  
   {
     name: "AxeChat",
     description:
@@ -235,6 +214,28 @@ const projects = [
     image: axechat,
     link:"https://axechat.pythonanywhere.com/",
     source_code_link: "https://github.com/akshat1423/AxeChat",
+  },
+  {
+    name: "Dear Diary",
+    description:
+      "Empowering seamless note-making for everyone, anywhere, and on any device. A revolutionary project that unlocks the power of accessibility and organization at your fingertips.",
+    tags: [
+      {
+        name: "AngularJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQLite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: deardiary,
+    link:"https://homepages.iitb.ac.in/~22b0690/#/login",
+    source_code_link: "https://github.com/deardiaryav/deardiaryav.github.io",
   },
   {
     name: "AxeBlogs",
