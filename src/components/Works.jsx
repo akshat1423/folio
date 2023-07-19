@@ -74,34 +74,34 @@ const ProjectCard = (
 };
 
 const Works = () => {
-  const [startOffset, setStartOffset] = useState(1200);
+  // const [startOffset, setStartOffset] = useState(1200);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const { scrollTop, scrollHeight, clientHeight } = document.documentElement || document.body;
-      const percent = (scrollTop / (scrollHeight - clientHeight)) * 100;
-      setStartOffset(-percent * 40 + 4200);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const { scrollTop, scrollHeight, clientHeight } = document.documentElement || document.body;
+  //     const percent = (scrollTop / (scrollHeight - clientHeight)) * 100;
+  //     setStartOffset(-percent * 40 + 50000);
+  //   };
 
-    document.addEventListener('scroll', handleScroll);
+  //   document.addEventListener('scroll', handleScroll);
 
-    return () => {
-      document.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     document.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.
-        <svg width="100%" height="160px" viewBox="0 0 1098.72 89.55">
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        {/* <svg width="100%" height="160px" viewBox="0 0 1098.72 89.55">
       <path id="curve" fill="transparent" d="M0.17,0.23c0,0,105.85,77.7,276.46,73.2s243.8-61.37,408.77-54.05c172.09,7.64,213.4,92.34,413.28,64.19"></path>
       <text width="100%" style={{ transform: 'translate3d(0,0,0)' }}>
-        <textPath style={{ transform: 'translate3d(0,0,0)' }} alignmentBaseline="top" xlinkHref="#curve" startOffset={startOffset}>
+        <textPath style={{ transform: 'translate3d(0,0,0)' }} alignmentBaseline="top" xlinkHref="#curve" >
           *The pictures are not technically selfies.
         </textPath>
       </text>
-    </svg></h2>
+    </svg> */}
       </motion.div>
 
       <div className='w-full flex'>
