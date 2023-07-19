@@ -118,10 +118,7 @@ const technologies = [
     name: "ROS",
     icon: ROS,
   },
-  {
-    name: "ROS",
-    icon: googlemaps,
-  },
+
 ];
 
 const experiences = [
