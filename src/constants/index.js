@@ -20,6 +20,7 @@ import {
   flivery,
   vue,
   meta,
+  googlemaps,
   starbucks,
   tesla,
   shopify,
@@ -117,6 +118,10 @@ const technologies = [
     name: "ROS",
     icon: ROS,
   },
+  {
+    name: "ROS",
+    icon: googlemaps,
+  },
 ];
 
 const experiences = [
@@ -193,7 +198,7 @@ const projects = [
   {
     name: "Dear Diary",
     description:
-      "Dear Diary: Empowering seamless note-making for everyone, anywhere, and on any device. A revolutionary project that unlocks the power of accessibility and organization at your fingertips.",
+      "Empowering seamless note-making for everyone, anywhere, and on any device. A revolutionary project that unlocks the power of accessibility and organization at your fingertips.",
     tags: [
       {
         name: "AngularJS",
@@ -250,6 +255,10 @@ const projects = [
       {
         name: "MongoDB",
         color: "pink-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "grey-text-gradient",
       },
     ],
     image: tripguide,

@@ -10,6 +10,7 @@ import close from "./close.svg";
 import css from "./tech/css.png";
 import ROS from "./tech/ROS.png";
 import figma from "./tech/figma.png";
+import googlemaps from "./tech/googlemaps.png";
 import vue from "./tech/vue.png";
 import angular from "./tech/angular.png";
 import git from "./tech/git.png";
@@ -47,6 +48,7 @@ export {
   css,
   ROS,
   figma,
+  googlemaps,
   vue,
   angular,
   git,
